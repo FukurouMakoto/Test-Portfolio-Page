@@ -7,17 +7,20 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    position: fixed;
+    flex-direction: row;
+    position: relative;
 }
 
-ul {
+.navbar {
+    /*padding-top: 25px;*/
+    padding-bottom: 200px;
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
 h1 {
     text-align: center;
-    padding-left: 40px;
+    /*padding-left: 40px;*/
 }
 
 h3 {
@@ -29,8 +32,8 @@ nav {
 }
 
 html {
-    background-color: black;
-    color: red;
+    /*background-color: black;
+    color: red;*/
 }
 
 p {
@@ -38,8 +41,14 @@ p {
 }
 
 .Languages-div {
-    height: 500px;
+    height: 1000px;
+    width: 1000px;
     padding-top: 100px;
+    background-color: yellow;
+    background-image: url("https://wiki.installgentoo.com/images/e/e4/Python.png");
+    background-repeat: no-repeat;
+    background-size: 300px, 300px;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,16 +56,45 @@ p {
 }
 
 .Languages-list {
+    list-style: none;
+    font-weight: bolder;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    position: center;
     justify-content: center;
 }
 
 .Projects-div {
+    height: 1000px;
+    width: 1000px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-color: #89cff0;
+    background-image: url("https://img.favpng.com/19/25/9/scalable-vector-graphics-github-computer-icons-logo-computer-file-png-favpng-GRYRADbE9437SkThu9hB2QtbQ.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px, 500px;
+    background-position: center;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Center {
     height: 500px;
     padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.About-Me-div {
+    height: 500px;
+    width: 1000px;
+    padding-top: 100px;
+    background-color: #0D0208;
+    color: #008F11;
     display: flex;
     flex-direction: column;
     align-items: center;
